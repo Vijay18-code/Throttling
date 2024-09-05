@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#notes {
+  position: relative;
+  top: 30%;
+  font-size: 80px;
+  text-align: center;
+  justify-content: center;
+  line-height: 55pt;
+}
+
+#nav {
+  position: relative;
+  font: 30px;
+  top: 5%;
+  text-align: center;
+  font-weight: 900;
+  font-family: cursive;
+}
+
+#center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60%;
+}
+
+.imagediv {
+  position: absolute;
+  width: 200px;
+  height: 270px;
+  overflow: hidden;
+}
+
+.imagediv img {
+  transform: translateY(100%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
